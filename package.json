@@ -1,0 +1,13 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "A React Single Page Application for displaying an interactive tutorial.",
+  "main": "frontend/src/main.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-frontend": "cd frontend && npm start",
+    "start": "npm run start-frontend"
+  },
+  "author": "James Newton",
+  "license": "MIT"
+}
