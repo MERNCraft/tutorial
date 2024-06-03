@@ -1,0 +1,148 @@
+{
+  "title": "Meta Tutorial",
+  "thumbnail": "thumbnail.svg",
+  "tags": [],
+  "description": "A Vite+React frontend app to render interactive tutorials",
+  "date": 1717330885534,
+  "pages": [
+    { "id": "intro",
+      "title": "Introduction",
+      "contents": [
+        { "type": "p",
+          "text": "Content"
+        },
+        { "type": "p",
+          "text": "In this tutorial, you will be learning how to:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            { "type": "a",
+              "href": "#",
+              "text": "Do stuff"
+            }
+          ]
+        },
+        { "type": "h4",
+          "text": "Prerequisites"
+        },
+        { "type": "p",
+          "text": "Before you start you should already have:"
+        },
+        { "type": "ul",
+          "items": [
+            { "type": "text",
+              "text": "Some knowledge"
+            } 
+          ]
+        },
+        { "type": "p",
+          "text": "You should already be familiar with:"
+        },
+        { "type": "ul",
+          "items": [
+            { "type": "text",
+              "text": "JavaScript"
+            } 
+          ]
+        },
+        { "type": "div",
+          "class": "repo",
+          "children": [{
+              "type": "a",
+              "href": "https://github.com/MERNCraft/tutorialX",
+              "children": [
+                { "type": "img", 
+                  "src": "tutorial/images/github.svg",
+                  "alt": "github logo"
+                },
+                { "type": "span", 
+                  "text": "GitHub repository"
+                }
+              ]
+            }
+          ]
+        },
+        { "type": "aside",
+          "class": "tip center feedback-small",
+          "children": [
+            { "type": "p",
+              "children": [
+                { "type": "text",
+                  "text": "If you have any difficulties with this tutorial, or any suggestions on how to improve it, please "
+                },
+                { "type": "a",
+                  "href": "https://github.com/MERNCraft/tutorialX/issues/new",
+                  "text": "submit&nbsp;an&nbsp;issue&nbsp;on&nbsp;GitHub"
+                },
+                { "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        { "type": "aside",
+          "class": "tip center feedback-wide",
+          "children": [
+            { "type": "p",
+              "children": [
+                { "type": "text",
+                  "text": "If you have any difficulties with this tutorial,"
+                },
+                { "type": "br"
+                },
+                { "type": "text",
+                  "text": "or any suggestions on how to improve it,"
+                },
+                { "type": "br"
+                },
+                { "type": "text",
+                  "text": "please"
+                },
+                { "type": "a",
+                  "href": "https://github.com/MERNCraft/tutorialX/issues/new",
+                  "text": "submit&nbsp;an&nbsp;issue&nbsp;on&nbsp;GitHub"
+                },
+                { "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        { "type": "hr"},
+        { "type": "aside",
+          "class": "warn",
+          "children": [
+            { "type": "p",
+              "children": [
+                { "type": "text",
+                  "text": "In this tutorial, you "
+                },
+                { "type": "strong",
+                  "text": "won't"
+                },
+                { "type": "text",
+                  "text": " be learning:"
+                }
+              ]
+            },
+            { "type": "ul",
+              "items": [
+                { "type": "text",
+                  "text": "Other stuff*"
+                }
+              ]
+            },
+            { "type": "p",
+              "text": "* These topics will be covered in future tutorials."
+            }
+          ]
+      
+        }
+
+      ]
+    }
+  ]
+}
